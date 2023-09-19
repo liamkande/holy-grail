@@ -1,0 +1,72 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  padding: 5px;
+  display: block;
+  margin: 5px 0px;
+  border: 1px solid #ccc;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+  height: 90vh;
+}
+
+.section {
+  font-size: 1.3em;
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+header, aside, article, footer {
+  border-style: solid;
+  font-size: 1em;
+  padding: 10px;
+}
+
+aside {
+  background: #fff;
+  border: 2px solid rgb(50, 116, 228);
+  border-radius: 10px;
+}
+
+article {
+  background: #fff;
+  border: 2px solid rgb(15, 37, 67);
+  border-radius: 10px;
+}
+
+header, footer {
+  grid-column: 1 / 4;
+}
+
+footer {
+  background: #fff;
+  border: 2px solid rgb(79, 173, 132);
+  border-radius: 10px;
+}
+
+header {
+  background: rgb(250, 148, 148);
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+body {
+  font-family: Arial;
+}
+
+button {
+  font-size: 1em;
+}
+
+img {
+  height: 32px;
+  width: 32px;
+  margin: 4px;
+}
